@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Detector:jar">
+    <output-path>$PROJECT_DIR$/artifacts/Detector_jar</output-path>
+    <root id="archive" name="Detector.jar">
+      <element id="module-output" name="Detector" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Detector/lib/pi4j-service.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Detector/lib/pi4j-gpio-extension.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Detector/lib/pi4j-device.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Detector/lib/pi4j-core.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

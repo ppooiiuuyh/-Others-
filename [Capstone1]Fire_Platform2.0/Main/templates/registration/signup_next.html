@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+		</title>
+	</head>
+	<body>
+    {% block content %}
+
+    <section id="record html" class="wrapper">
+
+        <header class="major special">
+                <h2>Congratulations!</h2>
+            <p>Congratulations on signing up! Please fill in your Mac Address.</p>
+        </header>
+    </section>
+        <section>
+        <center><ul class="actions"  >
+                 <li><a href="{% url 'main_index' %}" class="button vertical special">Main</a></li>
+               <li><a href="{% url 'mac' %}" class="button vertical alt">Input</a></li>
+            </ul></center>
+        </section>
+        {% endblock %}
+	</body>
+</html>

@@ -1,0 +1,11 @@
+#!/bin/bash
+sudo killall hostapd
+sudo ifdown wlan0
+sudo mv /etc/network/interfaces /etc/network/interfaces.baaaak
+sudo cp /etc/network/interfaces.clmode /etc/network/interfaces
+sudo service isc-dhcp-server stop
+sudo ifup wlan0
+sudo /usr/sbin/hostapd -B /etc/hostapd/hostapd.conf && 
+#sleep 8
+sudo killall hostapd
+echo finish

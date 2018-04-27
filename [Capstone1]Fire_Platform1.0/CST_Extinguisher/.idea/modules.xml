@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DBInterfaceServer/DBInterfaceServer.iml" filepath="$PROJECT_DIR$/DBInterfaceServer/DBInterfaceServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Detector/Detector.iml" filepath="$PROJECT_DIR$/Detector/Detector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CST_Extinguisher_forTest/Detector_forTest/Detector_forTest.iml" filepath="$PROJECT_DIR$/../CST_Extinguisher_forTest/Detector_forTest/Detector_forTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extinguisher_GUI/Extinguisher_GUI.iml" filepath="$PROJECT_DIR$/Extinguisher_GUI/Extinguisher_GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gate/Gate.iml" filepath="$PROJECT_DIR$/Gate/Gate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../SimplexMSG_UDP_dup/SimplexMsg_UDP_MsgReceiver/SimplexMsg_UDP_MsgReceiver.iml" filepath="$PROJECT_DIR$/../../SimplexMSG_UDP_dup/SimplexMsg_UDP_MsgReceiver/SimplexMsg_UDP_MsgReceiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../SimplexMSG_UDP_dup/SimplexMsg_UDP_MsgSender/SimplexMsg_UDP_MsgSender.iml" filepath="$PROJECT_DIR$/../../SimplexMSG_UDP_dup/SimplexMsg_UDP_MsgSender/SimplexMsg_UDP_MsgSender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../eclipse64/workspace/Sync_GUI/Sync_GUI.iml" filepath="$PROJECT_DIR$/../../../../eclipse64/workspace/Sync_GUI/Sync_GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gate/UDP_test.iml" filepath="$PROJECT_DIR$/Gate/UDP_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../eclipse64/workspace/WC/WC.iml" filepath="$PROJECT_DIR$/../../../../eclipse64/workspace/WC/WC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebTest/WebTest.iml" filepath="$PROJECT_DIR$/WebTest/WebTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,2 @@
+sudo lxterminal --command=/home/pi/Desktop/distDog/distDog 0 222.222.0.255
+sudo nano ~/.config/lxsession/LXDE-pi/autostart 

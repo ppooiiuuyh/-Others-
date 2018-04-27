@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en" xmlns:c="http://www.w3.org/1999/XSL/Transform">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block content %}
+<section id="record html" class="wrapper">
+
+    <header class="major special">
+						<h2>Fire Record</h2>
+						<p></p>
+    </header>
+
+<section>
+            <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Data</th>
+                                <th>ID</th>
+                                <th>Type</th>
+                                <th>Date Time</th>
+                                <th>Last Update</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                 {% for test in test %}
+							<tr>
+
+                                <td><a href="{{ test.fileurl }}">{{ test.filename }}</a></td>
+                                 <td>  {{ test.id }}</td>
+                                 <td>  {{ test.type }}</td>
+                                 <td>  {{ test.datetime }}</td>
+                                 <td>  {{ test.lastupdated }}</td>
+                            </tr>
+                               {% endfor %}
+							</tbody>
+						</table>
+            </div>
+</section>
+</section>
+ {% endblock %}
+</body>
+</html>

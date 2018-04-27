@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+    {% block content %}
+         <section id="record html" class="wrapper">
+
+        <header class="major special">
+                <h2>Enter Mac Address</h2>
+            <p>please Enter your Pi's Mac Address</p>
+        </header>
+    </section>
+        <section>
+		<form id="mac" method="post" action="{% url 'mac' %}">{% csrf_token %}
+         <table>
+                <tr>
+                    <td>Mac Address</td>
+                    <td>{{macform.mac_add}}</td>
+                </tr>
+            </table>
+
+			<center><button type="submit" id="submit" class="button big default">Save</button></center>
+		</div>
+        </form>
+        </section>
+
+
+
+
+
+ {% endblock %}
+
+	</body>
+</html>

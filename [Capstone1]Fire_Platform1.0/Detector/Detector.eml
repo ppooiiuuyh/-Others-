@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/../test/Detector"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="pi4j-core.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../CST_Extinguisher/Detector/lib/pi4j-core.jar!/"/>
+	</lib>
+	<lib name="pi4j-device.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../CST_Extinguisher/Detector/lib/pi4j-device.jar!/"/>
+	</lib>
+	<lib name="pi4j-gpio-extension.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../CST_Extinguisher/Detector/lib/pi4j-gpio-extension.jar!/"/>
+	</lib>
+	<lib name="pi4j-service.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../CST_Extinguisher/Detector/lib/pi4j-service.jar!/"/>
+	</lib>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Extinguisher_GUI:jar">
+    <output-path>$PROJECT_DIR$/artifacts/Extinguisher_GUI_jar</output-path>
+    <root id="archive" name="Extinguisher_GUI.jar">
+      <element id="module-output" name="Extinguisher_GUI" />
+    </root>
+  </artifact>
+</component>

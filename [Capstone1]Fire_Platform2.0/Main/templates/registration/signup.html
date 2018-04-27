@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+		</title>
+	</head>
+	<body>
+    {% block content %}
+
+    <section id="record html" class="wrapper">
+
+        <header class="major special">
+                <h2>Sign Up</h2>
+            <p></p>
+        </header>
+    </section>
+        <section>
+		<form id="signup" method="post" action="{% url 'signup' %}">{% csrf_token %}
+         <table>
+                <tr>
+                    <td>User Name</td>
+                    <td>{{ userform.username }}</td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td>{{ userform.email }}</td>
+                </tr>
+               <tr>
+                    <td>Password</td>
+                    <td>{{ userform.password }}</td>
+                </tr>
+
+            </table>
+
+
+			<center><button type="submit" id="submit" class="button big default">Sign Up</button></center>
+		</div>
+        </form>
+        </section>
+        {% endblock %}
+	</body>
+</html>
