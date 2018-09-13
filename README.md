@@ -1,2 +1,2 @@
 # -Others-
-other projects
+other projects.
